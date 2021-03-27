@@ -47,6 +47,7 @@
 			reg = <0x0 0x0>;
 			qcom,limits-info = <&mitigation_profile0>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
+			clock-frequency = <1920000000>;
 			enable-method = "psci";
 			efficiency = <1024>;
 			next-level-cache = <&L2_0>;
@@ -75,6 +76,7 @@
 			reg = <0x0 0x1>;
 			qcom,limits-info = <&mitigation_profile1>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
+			clock-frequency = <1920000000>;
 			enable-method = "psci";
 			efficiency = <1024>;
 			next-level-cache = <&L2_0>;
@@ -98,6 +100,7 @@
 			reg = <0x0 0x2>;
 			qcom,limits-info = <&mitigation_profile2>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
+			clock-frequency = <1920000000>;
 			enable-method = "psci";
 			efficiency = <1024>;
 			next-level-cache = <&L2_0>;
@@ -121,6 +124,7 @@
 			reg = <0x0 0x3>;
 			qcom,limits-info = <&mitigation_profile3>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
+			clock-frequency = <1920000000>;
 			enable-method = "psci";
 			efficiency = <1024>;
 			next-level-cache = <&L2_0>;
@@ -144,6 +148,7 @@
 			reg = <0x0 0x100>;
 			qcom,limits-info = <&mitigation_profile4>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
+			clock-frequency = <2361000000>;
 			enable-method = "psci";
 			efficiency = <1536>;
 			next-level-cache = <&L2_1>;
@@ -171,6 +176,7 @@
 			reg = <0x0 0x101>;
 			qcom,limits-info = <&mitigation_profile5>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
+			clock-frequency = <2361000000>;
 			enable-method = "psci";
 			efficiency = <1536>;
 			next-level-cache = <&L2_1>;
@@ -194,6 +200,7 @@
 			reg = <0x0 0x102>;
 			qcom,limits-info = <&mitigation_profile6>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
+			clock-frequency = <2361000000>;
 			enable-method = "psci";
 			efficiency = <1536>;
 			next-level-cache = <&L2_1>;
@@ -217,6 +224,7 @@
 			reg = <0x0 0x103>;
 			qcom,limits-info = <&mitigation_profile7>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
+			clock-frequency = <2361000000>;
 			enable-method = "psci";
 			efficiency = <1536>;
 			next-level-cache = <&L2_1>;
